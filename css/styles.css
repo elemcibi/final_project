@@ -134,3 +134,33 @@ p {
         gap: 100px 30px;
     }
 }
+
+.welcome{
+    color: black;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 50px;
+    background-color: #ecc05B;
+    padding: 2em 5em;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about{
+    color: black;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 50px;
+    background-color: #ecc05B;
+    padding: 2em 5em;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.art{
+    
+}
