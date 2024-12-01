@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+.bitter {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #393d3f;
+    background-color: #fdfdff;
+}
+
+.page_header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #393d3f;
+    color: #fdfdff;
+    padding: 40px 20px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style:none;
+    font-size: 16pt;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fdfdff;
+}
+
+.menu a:focus, a:hover {
+    color: #ecc05B;
+    text-decoration: underline;
+}
+
+.service_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.services_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+h1 {
+    font-size: 40pt;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 30pt;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+.price {
+    color: #931B10;
+}
+
+.page_info {
+    background-color: #ecc05B;
+    padding: 2em 5em;
+    width: 50%;
+}
+
+.page_info h1 {
+    text-align: center;
+}
+
+.service_img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.page_footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #393d3f;
+    color: #fdfdff;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+@media (min-width: 700px) {
+
+    .service_content {
+        gap: 60px;
+    }
+
+    .services_inner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 100px 30px;
+    }
+}
