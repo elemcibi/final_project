@@ -150,7 +150,7 @@ p {
 
 .about{
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 40px 20px;
     margin-bottom: 50px;
     background-color: #ecc05B;
@@ -159,8 +159,4 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.art{
-    
 }
