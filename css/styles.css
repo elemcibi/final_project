@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+/* THIS IS MY HEADER, USE THIS ALL THE UNTIL... */
+
 .bitter {
     font-family: "Bitter", serif;
     font-optical-sizing: auto;
@@ -42,6 +44,8 @@
     color: #ecc05B;
     text-decoration: underline;
 }
+
+/* ...HERE */
 
 .service_content {
     display: flex;
@@ -84,6 +88,8 @@ p {
     color: #931B10;
 }
 
+
+/* THIS IS THE STYLE FOR THE PAGE TITLE AND DESC, USE THIS UNTIL... */
 .page_info {
     background-color: #ecc05B;
     padding: 2em 5em;
@@ -94,10 +100,14 @@ p {
     text-align: center;
 }
 
+/* ...UNTIL HERE */
+
 .service_img {
     height: 20rem;
     width: 20rem;
 }
+
+/* THIS IS MY FOOTER, USE THIS ALL THE UNTIL... */
 
 .page_footer {
     display: flex;
@@ -108,6 +118,8 @@ p {
     padding: 40px 20px;
     margin-top: 50px;
 }
+
+/* ...UNTIL HERE */
 
 @media (min-width: 700px) {
 
