@@ -171,14 +171,10 @@ p {
 }
 
 @media (min-width: 700px) {
-
-    .welcome, .about {
-        width: 70%;
+    .megadiv{
+        display:flex;
+        flex-direction: row;
         padding: 1.5em;
-    }
-
-    .art {
-        width: 70%;
-        height: auto;
+        gap: 20px;
     }
 }
