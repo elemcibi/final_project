@@ -160,3 +160,25 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+.art{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20rem;
+    width: 30rem;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 700px) {
+
+    .welcome, .about {
+        width: 70%;
+        padding: 1.5em;
+    }
+
+    .art {
+        width: 70%;
+        height: auto;
+    }
+}
