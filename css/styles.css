@@ -107,6 +107,42 @@ p {
     width: 20rem;
 }
 
+fieldset{
+    margin:0 ;
+    padding: 100px;
+    border-radius: 10px;
+    border-color: rgb(210, 210, 210)
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; 
+  padding: 5px; 
+  font-size: 16px; 
+  border: 1px solid;
+  border-radius: 5px; 
+  margin-bottom: 15px; 
+}
+
+label {
+    font-size: 20px; 
+  }
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px; 
+    background-color: #ecc05B; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color:#f4dba1 ; 
+  }
+
 /* THIS IS MY FOOTER, USE THIS ALL THE UNTIL... */
 
 .page_footer {
@@ -120,6 +156,10 @@ p {
 }
 
 /* ...UNTIL HERE */
+
+
+
+
 
 @media (min-width: 700px) {
 
@@ -177,4 +217,11 @@ p {
         padding: 1.5em;
         gap: 20px;
     }
-}
+} 
+
+
+
+
+
+
+

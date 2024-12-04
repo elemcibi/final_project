@@ -4,49 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bitter">
     <header>
-        <div class="container">
-            <nav class="nav-collapse">      
-                <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
+        <div class="page_header">
+            <div>
+                <img src="img/page_logo.png" alt="our logo" class="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Services</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
-            </nav>
-        <p>The_Restorer</p>
+            </div>
+        </div>
     </header>
 
-<div class="contact">
+<main class="service_content">
+<div class="page_info">
     <h1>Contact Us</h1>
 </div>
-<div class="main-content">
+
+<div class="page_info">
 <p>Have any questions about our services or just want to learn more about us? Feel free to send us a message! Please allow 48 hous for a reply.</p>
 </div>
 
 <form action="/" method="post">
-
     <fieldset>
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="user_name" required><br>
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="user_email" required> <br>
-        <label for="message">Message</label><br>
-        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea> <br>
-        <button type="submit">Send</button> 
-    </fieldset>
-    </form>
-
-<footer>
-    <p>Questions?</p>
-
-<div class="footer-text">
-    <p>Phone: (919) 333-3333</p>
-    <p>Email: therestorer33@gmail.com</p> 
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="user_name" required><br>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="user_email" required> <br>
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea> <br>
+      <button type="submit">Send</button> 
+  </fieldset>
+  </form>
 </div>
 
+  <footer>
+    <div class="page_footer">
+        <div>
+            <p>Questions?</p>
+        </div>
+
+        <div>
+            <p>Phone: (919) 333-3333</p>
+            <p>Email: something@gmail.com</p>
+        </div>
+    </div>
 </footer>
 
 </body>
