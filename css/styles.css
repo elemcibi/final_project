@@ -109,25 +109,26 @@ p {
 
 fieldset{
     margin:0 ;
-    padding: 100px;
+    padding: 50px;
     border-radius: 10px;
-    border-color: rgb(210, 210, 210)
+    border-color: rgb(210, 210, 210);
+    width: 50vw
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%; 
-  padding: 5px; 
-  font-size: 16px; 
-  border: 1px solid;
-  border-radius: 5px; 
-  margin-bottom: 15px; 
+    width: 100%; 
+    padding: 5px; 
+    font-size: 16px; 
+    border: 1px solid;
+    border-radius: 5px; 
+    margin-bottom: 15px; 
 }
 
 label {
     font-size: 20px; 
-  }
+}
 
 button {
     width: 100%;
@@ -137,11 +138,13 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+    transition: background-color 0.3s;
+}
 
-  button:hover {
-    background-color:#f4dba1 ; 
-  }
+button:hover, button:focus {
+    background-color:#931B10;
+    color: #fdfdff;
+}
 
 /* THIS IS MY FOOTER, USE THIS ALL THE UNTIL... */
 
@@ -157,10 +160,6 @@ button {
 
 /* ...UNTIL HERE */
 
-
-
-
-
 @media (min-width: 700px) {
 
     .service_content {
@@ -173,55 +172,20 @@ button {
         flex-wrap: wrap;
         gap: 100px 30px;
     }
-}
 
-.welcome{
-    color: black;
-    text-align: center;
-    padding: 40px 20px;
-    margin-bottom: 50px;
-    background-color: #ecc05B;
-    padding: 2em 5em;
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.about{
-    color: black;
-    text-align: left;
-    padding: 40px 20px;
-    margin-bottom: 50px;
-    background-color: #ecc05B;
-    padding: 2em 5em;
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.art{
+    .art {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 20rem;
     width: 30rem;
     margin-bottom: 50px;
-}
+    }
 
-@media (min-width: 700px) {
-    .megadiv{
+    .megadiv {
         display:flex;
         flex-direction: row;
         padding: 1.5em;
         gap: 20px;
     }
-} 
-
-
-
-
-
-
-
+}
