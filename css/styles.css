@@ -47,6 +47,20 @@
 
 /* ...HERE */
 
+.art {
+    display: block;
+    height: 20rem;
+    width: 30rem;
+    margin: 50px 30px;
+    }
+
+.about_pgs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 .service_content {
     display: flex;
     flex-direction: column;
@@ -61,7 +75,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px
+    gap: 50px
 }
 
 h1 {
@@ -86,6 +100,7 @@ p {
 
 .price {
     color: #931B10;
+    margin: 10px 0;
 }
 
 
@@ -100,10 +115,19 @@ p {
     text-align: center;
 }
 
+.home_special {
+    padding-bottom: 20px;
+}
+
 /* ...UNTIL HERE */
 
 .service_img {
     height: 20rem;
+    width: 20rem;
+    margin-bottom: 10px;
+}
+
+.service_desc {
     width: 20rem;
 }
 
@@ -173,19 +197,8 @@ button:hover, button:focus {
         gap: 100px 30px;
     }
 
-    .art {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 20rem;
-    width: 30rem;
-    margin-bottom: 50px;
-    }
-
-    .megadiv {
-        display:flex;
+    .service_content {
+        display: flex;
         flex-direction: row;
-        padding: 1.5em;
-        gap: 20px;
     }
 }
