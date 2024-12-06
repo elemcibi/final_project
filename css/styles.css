@@ -57,9 +57,13 @@
 .about_pgs {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    background-color: #ecc05B;
+    padding: 2em 5em;
 }
 
+.about_text {
+    padding-bottom: 20px;
+}
 
 .service_content {
     display: flex;
@@ -76,6 +80,14 @@
     justify-content: center;
     align-items: center;
     gap: 50px
+}
+
+#contact_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 h1 {
@@ -117,6 +129,8 @@ p {
 
 .home_special {
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 /* ...UNTIL HERE */
@@ -170,6 +184,7 @@ button:hover, button:focus {
     color: #fdfdff;
 }
 
+
 /* THIS IS MY FOOTER, USE THIS ALL THE UNTIL... */
 
 .page_footer {
@@ -188,7 +203,45 @@ button:hover, button:focus {
 
     .service_content {
         gap: 60px;
+        display: flex;
     }
+
+    #home_title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    #home_section {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #contact_title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    #contact_section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #contact_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+
 
     .services_inner {
         display: flex;
@@ -197,8 +250,4 @@ button:hover, button:focus {
         gap: 100px 30px;
     }
 
-    .service_content {
-        display: flex;
-        flex-direction: row;
-    }
 }
